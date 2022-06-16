@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicando Bootstap</title>
+    <!-- Bootstap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Mi estilo -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg colorceleste">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Menu</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Manga</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Figuras
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Banpresto</a></li>
+                  <li><a class="dropdown-item" href="#">Bandai</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Otras</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div class="container bg-light">
+        <h1 class="bg-info" id="tituloGrande">SHIKA~MANGA</h1>
+        <p class="bg-warning">¡MANGA & ANIME - RESEÑAS - OPIÑONES - FIGURAS - FUNKOS!</h2>
+        <p> El anime y manga se puede considerar como un arte, que eleva al más alto nivel del espíritu,
+            los sentimientos y pensamientos de los autores del género, así como a los admiradores del mismo y
+            cuyo
+            fin es el entretener a todos los televidentes o a quienes ven las imágenes plasmadas en el papel.
+            Aquí en podrás encontrar información de los orígenes del mundo del anime así como sus distintos
+            géneros.
+            Además de que somos una tienda online con una gran variedad de productos, si te interesa no olvides
+            pasar a nuestra tienda.</p>
+        <p class="lead">El manga japonés abarca una extensa variedad de géneros y llega a públicos diversos. Es una
+            parte muy importante del mercado editorial de Japón y motiva múltiples adaptaciones a distintos
+            formatos: series de animación, conocidas como anime, o de imagen real, películas, videojuegos y
+            novelas.
+            Cada semana o mes se editan nuevos tomos con entregas de cada serie, protagonizadas por héroes con
+            grandes aventuras.
+            En el manga las viñetas y páginas se leen de derecha a izquierda, la mayoría de los mangas
+            originales que se traducen a otros idiomas ha respetado este orden. El más popular y reconocido
+            estilo de manga tiene otras características distintivas.</p>
+        <div>
+            <button class="bg-secondary bg-gradient" >MAS INFORMACION</button>
+            <button class="bg-secondary bg-gradient">SUSCRIBIRME</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row bg-info">
+          <div class="col-md-8 col-xl-6 border border-dark">Chaisaw-man</div>
+          <div class="col-md-4 col-xl-6 border border-dark">JujutsuKaisen</div>
+        </div>
+      
+        <div class="row bg-danger">
+          <div class="col-sm-6 col-md-4 border border-dark">ShingekiNoKioyin</div>
+          <div class="col-sm-4 col-md-4 border border-dark">ThepromiseNeverland</div>
+          <div class="col-sm-2 col-md-4 border border-dark">DragonBallZ</div>
+        </div>
+      
+        <div class="row bg-success">
+          <div class="col-6 border border-dark">FullMetal</div>
+          <div class="col-6 border border-dark">DeathNote</div>
+        </div>
+      </div>
+
+      <Footer>
+          <!-- Formulario -->
+      <form class="container">
+        <div>
+          <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Ver</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Registrarse</button>
+      </form>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+      </Footer>
+
+    
+</body>
+</html>
